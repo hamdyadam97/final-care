@@ -1,0 +1,53 @@
+.item{
+    background-color: #ececec;
+    
+}
+.page{
+    background-color: #ececec;
+    height: 100%;
+}
+.maincard{
+    background-color: #ececec;
+    width:30%;
+    height: auto;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+.card2{
+    background-color:white;
+    width:60%;
+    height: auto;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.card1{
+    background-color:white;
+    width:30%;
+    border-radius: 10px;
+    height: auto;
+    display: inline-block;
+
+}
+.docimg{
+    border-radius: 50%;
+    height: 290px;
+}
+.data{
+text-align: center;
+
+}
+.formcard{
+   
+   margin-top: 10px;
+   width:100%;
+}
+.formimg{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 100%;
+    width:90%
+}

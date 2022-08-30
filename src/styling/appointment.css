@@ -1,0 +1,30 @@
+
+.doctor-card {
+  background: #fff;
+}
+.doctor-card .top {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.doctor-card .top:after {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.doctor-card .bottom {
+  padding: 0 30px;
+}
+.doctor-card .bottom .wrapper .forecast {
+  overflow: hidden;
+  margin: 0;
+  font-size: 0;
+  padding: 0;
+  padding-top: 20px;
+}

@@ -1,0 +1,36 @@
+
+.nav ul{
+	display: flex;
+	width: 80%;
+	height: 91px;
+	margin: auto;
+	max-width: 1000px;
+	justify-content: space-between;
+	text-align: center;
+}
+.nav li {
+	padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #1787e0;
+	min-width: 80px;
+	/* margin: auto; */
+}
+
+.nav li:hover {
+  background-image: url('https://www14.0zz0.com/2022/08/10/08/772815708.png');
+  background-size: 100% 100%;
+ 
+  animation: spring 300ms ease-out;
+	font-weight: bold;
+}
+.nav li:active {
+  transform: translateY(4px);
+}
+
+.logo1{
+  width: 83px;
+    height: 50px;
+  margin-right: 169px;
+  margin-left: -75px;
+}

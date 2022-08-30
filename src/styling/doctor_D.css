@@ -1,0 +1,65 @@
+/* body{
+    background-color:#01446E;
+} */
+
+.card{
+    border:none;
+
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.card:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:white;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color: #627d97;
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:hover::after{
+    transform:scaleY(1);
+}
+
+
+.fonts{
+    font-size:11px;
+}
+
+
+
+.buttons button:nth-child(1){
+       border:1px solid #01446E !important;
+       color:#01446E;
+       height:40px;
+}
+
+.buttons button:nth-child(1):hover{
+       border:1px solid #01446E !important;
+       color:#fff;
+       height:40px;
+       background-color:#01446E;
+}
+
