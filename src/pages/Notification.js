@@ -14,7 +14,7 @@ function Notification() {
             .catch((err) => console.log(err))
 
     }, [])
-    // console.log(notification)
+    console.log(notification)
 
 
     return (

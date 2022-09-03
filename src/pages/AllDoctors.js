@@ -28,7 +28,7 @@ function AllDoctors() {
       <div className="team" id="Top_Doctors">
         <div class="container">
           {doc_data.map((docs) => {
-            const imagepath = `https://care-ap.herokuapp.com/${docs.image}`
+            const imagepath = `https://care-ap.herokuapp.com${docs.image}`
             return (
               <div>
                 <div class="box">
