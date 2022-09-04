@@ -100,8 +100,8 @@ function Profile() {
             });
 
     }
-    useEffect(() => async () => {
-        await axios.get(`https://care-ap.herokuapp.com/doctordata/${doc_name}`)
+    useEffect(() =>  {
+         axios.get(`https://care-ap.herokuapp.com/doctordata/${doc_name}`)
 
             .then((res) => setdoc_data(res.data))
             .catch((err) => console.log(err))
