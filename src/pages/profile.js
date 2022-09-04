@@ -107,7 +107,9 @@ function Profile() {
             .catch((err) => console.log(err))
     }, [])
     console.log(doc_data.price)
-
+    console.log(user)
+    console.log("mohammed ahmed ali")
+    console.log(doc_name)
     useEffect(() => {
         
     
