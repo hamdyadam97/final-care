@@ -6,15 +6,16 @@ function Notification() {
     const [notification, setnotification] = useState([])
     let namedata = localStorage.getItem('user')
 
-    useEffect(() => async () => {
+    useEffect(() =>{
 
-        await axios.get(`https://care-ap.herokuapp.com/appointment/display_notification/${namedata}`)
+         axios.get(`https://care-ap.herokuapp.com/appointment/display_notification/${namedata}`)
 
             .then((res) => setnotification(res.data))
             .catch((err) => console.log(err))
 
     }, [])
     console.log(notification)
+    console.log("sssssssssssssssssssssssssssssssssssssssssssssssssss")
     console.log(namedata)
 
     return (
